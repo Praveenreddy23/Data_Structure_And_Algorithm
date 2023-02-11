@@ -1,0 +1,31 @@
+
+--@ Big O notation:
+--> Describes the performance of an algorithm as the amount of data increases
+
+    Ex:
+      O(1)
+      O(n)
+      O(log n)
+      O(n^2)
+       --> n = amount of data (its a variable like x)
+
+       O(1) -> constant time
+               random access of an element in an array
+               inserting at the beginning of linkedList
+
+       O(n) -> Linear time
+               looping through elements in an array
+               searching through a linkedList
+
+       O(log n) -> logarithmic time
+                   binary search
+
+       O(n log n) -> quasilinear time
+                     quicksort
+                     mergesort
+                     heapsort
+
+       O(n^2) -> quadratic time
+                 insertion sort
+                 selection sort
+                 bubble sort
